@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/main.css">
+    <title>MySearch with Google</title>
+</head>
+<body>
+    <header>
+        <nav class="navi">
+        <ul class="navi__list">
+            <li class="navi__item">
+                <a class="navi__link" href="/images.html">Images</a>
+            </li>
+            <li class="navi__item">
+                <a class="navi__link" href="/advanced.html">Advanced Search</a>
+            </li>
+        </ul>
+         </nav>
+    </header>
+    <section class="section">
+    <img class="section__img" src="./img/google.png" alt="Logo Google">
+    <form class="section__form" action="https://google.com/search" target="_blank" role="search" method="GET" >
+        <input class="section__input"  type="text" name="q">
+        <div class="section__wrapper">
+            <input class="section__btn" type="submit" name="btnK" value="Google Search">
+            <input class="section__btn" type="submit" name="btnI" value="I'm lucky today">
+        </div>
+    </form>
+    </section>
+</body>
+</html>

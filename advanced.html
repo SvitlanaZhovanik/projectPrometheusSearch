@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="scss/main.css">
+<title>Advanced Search</title>
+</head>
+<body>
+    <header>
+       <nav class="navi"> <a class="navi__link" href="./index.html">Go back</a></nav>
+    </header> 
+    <section class="section-advanced">
+        <h1>Advanced Search</h1>
+        <p>Find pages with...</p>
+        <form class="form__advanced" action="https://google.com/search">
+            <label class="form__label"><span>all this words:</span>
+            <input type="text"name="as_q"></label>
+            <label class="form__label"><span>this exact word or phrase:</span>
+            <input type="text" name="as_epq"></label>
+            <label class="form__label"><span>any of this words:</span>
+            <input type="text" name="as_oq"></label>
+            <label class="form__label"><span>none of this words:</span>
+            <input type="text" name="as_eq"></label>
+            <div class="section__wrapper"><input class="section__btn" type="submit" value="Advanced Search"></div>
+        </form>
+        </section>
+</body>
+</html>
