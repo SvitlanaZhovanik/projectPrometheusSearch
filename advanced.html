@@ -13,11 +13,14 @@
 </head>
 <body>
     <header>
-       <nav class="navi"> <a class="navi__link" href="./index.html">Go back</a></nav>
+       <nav class="navi navi-adv"> 
+        <a href="./index.html">
+            <img src="./img/google.png" width="100px"  alt="Logo google"></a>
+            <a class="navi__link" href="./index.html">Go back</a></nav>
     </header> 
     <section class="section-advanced">
-        <h1>Advanced Search</h1>
-        <p>Find pages with...</p>
+        <h1 class="section-advanced__title" >Advanced Search</h1>
+        <p class="section-advanced__text">Find pages with...</p>
         <form class="form__advanced" action="https://google.com/search">
             <label class="form__label"><span>all this words:</span>
             <input type="text"name="as_q"></label>
@@ -27,7 +30,7 @@
             <input type="text" name="as_oq"></label>
             <label class="form__label"><span>none of this words:</span>
             <input type="text" name="as_eq"></label>
-            <div class="section__wrapper"><input class="section__btn" type="submit" value="Advanced Search"></div>
+            <div class="section__wrapper"><input class="section__btn btn-adv" type="submit" value="Advanced Search"></div>
         </form>
         </section>
 </body>

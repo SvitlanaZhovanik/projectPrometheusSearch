@@ -149,10 +149,45 @@ a {
 }
 
 .form__label input {
-  min-width: 70%;
+  width: 40%;
+  border: 1px solid #5f6368;
+  color: #3c4043;
+  border-radius: 1px;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  margin-bottom: 10px;
+}
+
+.form__label input :hover, .form__label input :focus {
+  border: 1px solid #1a73e8;
+  outline: none;
+}
+
+.navi-adv {
+  height: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .section-advanced {
-  margin: 100px;
+  margin: 40px 100px;
+}
+
+.section-advanced__title {
+  color: #1a73e8;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.section-advanced__text {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.btn-adv {
+  margin-top: 30px;
 }
 /*# sourceMappingURL=main.css.map */
